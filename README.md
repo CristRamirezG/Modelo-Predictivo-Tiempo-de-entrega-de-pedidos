@@ -62,8 +62,10 @@ El proyecto utiliza los siguientes archivos CSV:
    - Integración de datos en un DataFrame unificado utilizando pandas.
 
 3. **Entrenamiento de Modelos:**
+   - Eleccion de variables segun la correlacion y la importancia.
+   - ![alt text](image/Correlation.png)
    - División en conjuntos de entrenamiento, validación y prueba.
-   - Pruebas con diversos modelos y selección del mejor según el RMSE.
+   - Pruebas con diversos modelos: Random Forest, KNN, Gradient Boosting, Linear SVC, Decision Tree, XGBoost y LightGBM.
 
 4. **Generación de Predicciones:**
    - Aplicación del modelo seleccionado para predecir valores de `total_minutes`.
@@ -77,5 +79,5 @@ El proyecto utiliza los siguientes archivos CSV:
 
 ## Resultados
 
-- El mejor modelo fue [modelo seleccionado], con un RMSE de [valor].
-- Archivo de salida: `orders.csv` con las predicciones de `total_minutes` para los pedidos.
+- A continuación se presentan los resultados obtenidos con los diferentes modelos:
+- imagen: ![alt text](image/Results.png)
